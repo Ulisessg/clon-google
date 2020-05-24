@@ -2,11 +2,69 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="./assets/imagenes/icono.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./assets/index.css">
     <title>Google</title>
 </head>
 <body>
+    <header class="header">
+        <div class="header__links">
+            <a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
+            <a href="https://www.google.com.mx/imghp?hl=es-419&tab=wi&ogbl">Imágenes</a>
+        </div>
+        <div class="header__buttons">
+            <img class="apps" src="./assets/imagenes/apps.png" alt="Apps de Google">
+            <a class="login__a" href="/"><button class="login">Iniciar sesión</button></a>
+        </div>
+
+    </header>
+    
+    
+    <!-- Aquí va la barra de búsqueda -->
+    <section class="searcher">
+        <!-- Logo -->
+        <img src="./assets/imagenes/logo.png" alt="Logo Google">
+        <!-- inicio del buscador -->
+        <div class="searcher__search">
+            <div class="searcher__input">
+                <img src="./assets/imagenes/icono_busqueda.png" alt="Icono de busqueda">
+                <input type="text">
+                <img src="./assets/imagenes/asistente_de_voz.png" alt="Asistente de voz">
+            </div>
+
+            <div class="searcher__buttons">
+                <button class="button__search">Buscar con Google</button>
+                <button class="button__search">Me siento con suerte</button>
+            </div>
+        </div>
+        <!-- Fin del buscador -->
+    </section>
+    <!-- Aquí termina la barra de búsqueda -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="pais">
+            <p>México</p>
+        </div>
+
+        <div class="info">
+            <div class="info__about-us">
+                <a href="https://www.google.com.mx/intl/es-419_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                <a href="https://www.google.com.mx/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a>
+                <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+                <a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+            </div>
+
+            <div class="info__conditions">
+                <a href="https://policies.google.com/privacy?fg=1">Privacidad</a>
+                <a href="https://policies.google.com/terms?fg=1">Condiciones</a>
+                <a href="https://www.google.com.mx/preferences?hl=es-419">Preferencias</a>
+            </div>
+
+        </div>
+    </footer>
+
     <script type="module" src="./index.js"></script>
 </body>
 </html>
