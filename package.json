@@ -1,0 +1,19 @@
+{
+  "name": "clon_google",
+  "version": "1.0.0",
+  "description": "Clon de google",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "keywords": [
+    "Google",
+    "Platzi"
+  ],
+  "author": "Ulises",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
