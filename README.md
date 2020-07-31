@@ -1,4 +1,3 @@
-# clon_google
-Voy a clonar "https://www.google.com.mx/"
+# Ejercicio de clonación de [Google](https://google.com "Google")
 
-Puedes ver el resultado en ulisessg.com/clon-google
+## Puedes ver el resultado [aquí](http://ulisessg.com/clon-google "aquí")
